@@ -16,7 +16,7 @@ public class TwoSum {
         for(int i=0; i<nums.length; i++) {
             if(onePass.containsKey(nums[i])) {
                 twoSum[0] = onePass.get(nums[i]);
-                twoSum[1] = i;cd 
+                twoSum[1] = i;
             } else {
                 onePass.put(target-nums[i], i);
             }
